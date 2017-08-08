@@ -678,6 +678,7 @@ struct Video {
 /*****************************************************************************/
 
 struct Native {
+	~Native();
     Datacratic::UnicodeString request; ///< Request payload complying with the Native Ad Specification
     Datacratic::UnicodeString ver; ///< Version of the Native Ad Specification
     Datacratic::List<ApiFramework> api; ///< List of supported API frameworks (table 5.6)
